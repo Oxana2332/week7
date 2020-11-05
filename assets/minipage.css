@@ -27,7 +27,7 @@
     display: grid;
     background-color: lavender;
     grid-template-columns: 23vw 23vw 23vw 23vw;
-    height: 19vh;
+    height: 18vh;
     grid-gap: 2rem;
     justify-content: space-around;
     align-items: center;
