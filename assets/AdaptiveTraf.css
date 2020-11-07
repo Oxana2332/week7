@@ -1,0 +1,1358 @@
+@media screen and (min-width: 1024px) {
+    #header {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #header {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #header {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #logo {
+        width: 160px;
+        height: 41px;
+        left: 191px;
+        top: 56px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #logo {
+        width: 160px;
+        height: 41px;
+        left: 191px;
+        top: 56px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #logo {
+        width: 160px;
+        height: 41px;
+        left: 191px;
+        top: 56px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #1F1534;
+        opacity: 0.5;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px;
+        color: #1F1534;
+        opacity: 0.5;
+        text-decoration: none;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .nav {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px;
+        color: #1F1534;
+        opacity: 0.5;
+        text-decoration: none;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navhome {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #1F1534;
+        text-decoration: none;
+        margin-left: 512px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navhome {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 23px;
+        color: #1F1534;
+        text-decoration: none;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .navhome {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 23px;
+        color: #1F1534;
+        text-decoration: none;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 60%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #main {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #main {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #H {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 1/2;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #H {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 36px;
+        color: #000000;
+        mix-blend-mode: normal;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #H {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 36px;
+        color: #000000;
+        mix-blend-mode: normal;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #mainP {
+        display: grid;
+        grid-row: 1/5;
+        grid-column: 2/3;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #mainP {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #mainP {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .start {
+        display: grid;
+        grid-row: 3/4;
+        grid-column: 1/2;
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 21px;
+        line-height: 32px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .start {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 16px;
+        line-height: 22px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .start {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 16px;
+        line-height: 22px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button1 {
+        display: grid;
+        grid-row: 4/5;
+        grid-column: 1/2;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #458FF6;
+        border-radius: 55px;
+        border: 1px solid white;
+        width: 200px;
+        height: 60px;
+        left: 190px;
+        top: 561px;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button1 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #458FF6;
+        border-radius: 55px;
+        border: 1px solid white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 60px;
+        left: 190px;
+        top: 561px;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .button1 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        background: #458FF6;
+        border-radius: 55px;
+        border: 1px solid white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 60px;
+        left: 190px;
+        top: 561px;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ourservic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ourservic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .ourservic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #Hservices {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #Hservices {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #Hservices {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rec {
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .rec {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .rec {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #ourservic {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 18px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #ourservic {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 18px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #ourservic {
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 18px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #figure {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #figure {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #figure {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .services {
+        width: 350px;
+        height: 354px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .services {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .services {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #providers {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-top: 50px;
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #providers {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #providers {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .providers {
+        display: grid;
+        grid-row: 1/5;
+        grid-column: 1/2;
+        width: 650px;
+        height: 477px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .providers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .providers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #hproviders {
+        display: grid;
+        grid-row: 1/2;
+        grid-column: 2/3;
+        align-content: end;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #hproviders {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        mix-blend-mode: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #hproviders {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        mix-blend-mode: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Rectangle {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Rectangle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .Rectangle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .txtprovid {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 18px;
+        line-height: 30px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .txtprovid {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 15px;
+        line-height: 20px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .txtprovid {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 15px;
+        line-height: 20px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .buttonone {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        justify-content: end;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        width: 200px;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .buttonone {
+        justify-content: end;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        width: 30%;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .buttonone {
+        justify-content: end;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        width: 30%;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .download {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .download {
+        margin: 3rem;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .download {
+        margin: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #download {
+        display: grid;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #download {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #000000;
+        mix-blend-mode: normal;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #download {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #000000;
+        mix-blend-mode: normal;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #apps {
+        display: grid;
+        grid-row: 1/5;
+        grid-column: 2/3;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #apps {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #apps {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .Rectangle12 {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Rectangle12 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .Rectangle12 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .downtxt {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 1/2;
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 18px;
+        line-height: 30px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .downtxt {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 15px;
+        line-height: 20px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .downtxt {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 15px;
+        line-height: 20px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button2 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        width: 200px;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button2 {
+        justify-content: end;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        width: 30%;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 43%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .button2 {
+        justify-content: end;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        width: 30%;
+        height: 60px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        border: 1.4px solid #458FF6;
+        box-sizing: border-box;
+        border-radius: 55px;
+        background-color: #FFFFFF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 43%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    #comment {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #comment {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #comment {
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #sing {
+        display: grid;
+        grid-row: 1/6;
+        grid-column: 1/2;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #sing {
+        margin: 10px;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    #sing {
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: grid;
+        grid-row: 1/2;
+        grid-column: 2/3;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 10px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 10px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer1 {
+        display: grid;
+        grid-row: 1/2;
+        grid-column: 3/4;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer1 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 10px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer1 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 10px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .footer2 {
+        display: grid;
+        grid-row: 1/2;
+        grid-column: 4/5;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer2 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 10px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer2 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 10px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .foot {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 18px;
+        line-height: 38px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .foot {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 20px;
+        line-height: 15px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .foot {
+        font-family: Mulish;
+        font-style: normal;
+
+        font-size: 14px;
+        line-height: 15px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer0 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer0 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer0 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .back {
+        display: grid;
+        grid-template-rows: 100px 200px 70px;
+        grid-template-columns: 350px 120px 100px 150px 100px;
+        justify-content: space-around;
+        margin-top: 70px;
+        background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .back {
+        margin-top: 40px;
+        background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .back {
+        margin-top: 40px;
+        background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .footer10 {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer10 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer10 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer20 {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer20 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer20 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer30 {
+        display: grid;
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer30 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer30 {
+        display: block;
+    }
+}
+
+
+a:hover {
+    color: #458FF6;
+}
